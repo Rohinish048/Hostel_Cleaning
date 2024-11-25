@@ -1,7 +1,5 @@
 # Hostel Maintainence.
-It's an application based product that solves the problems encountered by hostellers, minimises their time spent in hostel related activities and tasks.
-Boosts their productivity and feeling of saving time. Smooth and clean UI for a better user experience, but
-slight customisations to compliment the user's specific needs and personality.
+Application for Hostel Maintainence that has both admin and user ends. User (the student) can post their queries on the app to the hostel authorities and even share memes with each other. The admin side is seen by hostel authorities to solve the student queries.
 ## Nirvana Hostel - feel at home, feel at ease.
 
 
