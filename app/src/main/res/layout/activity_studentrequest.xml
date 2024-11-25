@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burly"
+    tools:context=".activity_studentrequest">
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+
+        android:divider="@color/burly"
+
+        android:layout_margin="5dp"
+        android:dividerHeight="0.5dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="36dp"
+        android:contentDescription="submit"
+        android:src="@drawable/add"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="531dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:fabCustomSize="64dp"
+android:onClick="onCLickAdd"
+        app:backgroundTint="#DD9C52"
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

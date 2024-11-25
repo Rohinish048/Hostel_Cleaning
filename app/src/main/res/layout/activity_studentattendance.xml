@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/burly"
+    tools:context=".activity_studentattendance">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#00FFFFFF"
+            android:onClick="onCal1"
+
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/studentattendancecalendar" />
+
+
+
+
+
+
+        <Button
+            android:id="@+id/submitAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Fetch"
+            android:onClick="fetchData"
+            app:backgroundTint="#70592F"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.442" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_marginTop="150dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#00FFFFFF"
+            android:visibility="gone"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/tick" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_marginTop="30dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="gone"
+
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/studentpresent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="ATTENDANCE STATUS"
+            android:textAlignment="center"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

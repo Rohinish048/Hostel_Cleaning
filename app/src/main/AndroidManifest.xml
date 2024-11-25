@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nirvana"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:theme="@style/Theme.Project">
+        <activity
+            android:name=".activity_wardenprofile"
+            android:label="Profile"
+            android:parentActivityName=".activity_wardendash" />
+        <activity
+            android:name=".activity_wardenrequests"
+            android:label="Student&apos;s requests"
+            android:parentActivityName=".activity_wardendash" />
+        <activity
+            android:name=".activity_wardenstaff"
+            android:label="Staff status"
+            android:parentActivityName=".activity_wardendash" />
+        <activity
+            android:name=".activity_studentattendance"
+            android:label="Attendance"
+            android:parentActivityName=".activity_studentdash" />
+        <activity
+            android:name=".activity_studentrequest"
+            android:label="Raise request"
+            android:parentActivityName=".activity_studentdash" />
+        <activity
+            android:name=".activity_studentstaff"
+            android:label="Staff"
+            android:parentActivityName=".activity_studentdash" />
+        <activity
+            android:name=".activity_wardenattendance"
+            android:label="Take Attendance"
+            android:parentActivityName=".activity_wardendash" />
+        <activity
+            android:name=".activity_studentprofile"
+            android:label="Profile"
+            android:parentActivityName=".activity_studentdash" />
+        <activity
+            android:name=".activity_updatenotice"
+            android:label="Update notice board"
+            android:parentActivityName=".activity_wardendash" />
+        <activity
+            android:name=".activity_noticeboard"
+            android:label="Noticeboard"
+            android:parentActivityName=".activity_studentdash" />
+        <activity
+            android:name=".activity_wardendash"
+            android:label="Warden Dashboard"
+            android:parentActivityName=".activity_wardenlogin" />
+        <activity
+            android:name=".activity_studentdash"
+            android:label="Student Dashboard"
+            android:parentActivityName=".activity_studentlogin" />
+        <activity
+            android:name=".activity_application"
+            android:label="Register Page"
+            android:parentActivityName=".activity_knowmore" />
+        <activity
+            android:name=".activity_knowmore"
+            android:label="Know more Page"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".activity_wardenlogin"
+            android:label="Warden Login Page"
+            android:parentActivityName=".activity_login" />
+        <activity
+            android:name=".activity_studentlogin"
+            android:label="Student Login Page"
+            android:parentActivityName=".activity_login" />
+        <activity
+            android:name=".activity_login"
+            android:label="Login Page"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
