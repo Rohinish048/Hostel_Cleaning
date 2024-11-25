@@ -1,6 +1,5 @@
 # Hostel Maintainence.
 Application for Hostel Maintainence that has both admin and user ends. User (the student) can post their queries on the app to the hostel authorities and even share memes with each other. The admin side is seen by hostel authorities to solve the student queries.
-## Nirvana Hostel - feel at home, feel at ease.
 
 
 
